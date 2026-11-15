@@ -1,0 +1,406 @@
+{
+  "163/left_eye": {
+    "participant": "163",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.419173543203173,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.17034742052115887,
+      "off_axis_superior_mm": -0.05727693477246927
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.3378917726549802,
+    "rms_after_mm": 0.01698880589708883,
+    "n_evaluations": 24
+  },
+  "163/right_eye": {
+    "participant": "163",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.33338889072091,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.2907615875675006,
+      "off_axis_superior_mm": -0.04943708759929987
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.3479303326332476,
+    "rms_after_mm": 0.012747677434782386,
+    "n_evaluations": 28
+  },
+  "211/left_eye": {
+    "participant": "211",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.200534249844383,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.5126776365916194,
+      "off_axis_superior_mm": 0.14806806792368662
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.4293561849106093,
+    "rms_after_mm": 0.019339198574828638,
+    "n_evaluations": 36
+  },
+  "211/right_eye": {
+    "participant": "211",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.165658922478333,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.42221856124607265,
+      "off_axis_superior_mm": 0.25032419795332067
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.22617518012186463,
+    "rms_after_mm": 0.01833860532037368,
+    "n_evaluations": 32
+  },
+  "346/left_eye": {
+    "participant": "346",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.681180555452117,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.08426239051354123,
+      "off_axis_superior_mm": 0.16040154012124672
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.19784947494379265,
+    "rms_after_mm": 0.03500628397244823,
+    "n_evaluations": 28
+  },
+  "346/right_eye": {
+    "participant": "346",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.92217839010495,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.18412792827737368,
+      "off_axis_superior_mm": 0.08899601851622434
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.1466560234845108,
+    "rms_after_mm": 0.02395381241874598,
+    "n_evaluations": 22
+  },
+  "384/left_eye": {
+    "participant": "384",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.040000005788943,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.3423701505476547,
+      "off_axis_superior_mm": 0.14502277852425238
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {
+      "anterior_radius": "lower"
+    },
+    "rms_before_mm": 0.32250260107106327,
+    "rms_after_mm": 0.02505080410683785,
+    "n_evaluations": 36
+  },
+  "384/right_eye": {
+    "participant": "384",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.040000003544824,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.34416248217854306,
+      "off_axis_superior_mm": 0.09875333543518242
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {
+      "anterior_radius": "lower"
+    },
+    "rms_before_mm": 0.27755009697007005,
+    "rms_after_mm": 0.022804152246809147,
+    "n_evaluations": 40
+  },
+  "444/left_eye": {
+    "participant": "444",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.541421594599102,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.3597582057552073,
+      "off_axis_superior_mm": -0.0839417705976209
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.37836218740638966,
+    "rms_after_mm": 0.027253926439057972,
+    "n_evaluations": 24
+  },
+  "444/right_eye": {
+    "participant": "444",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.322750156997333,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.298107364301866,
+      "off_axis_superior_mm": -0.016055706697593243
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.31632240344319784,
+    "rms_after_mm": 0.023210466154026173,
+    "n_evaluations": 28
+  },
+  "465/left_eye": {
+    "participant": "465",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.423545936501135,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.22422330835658155,
+      "off_axis_superior_mm": 0.07417044091705331
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.1961689797582965,
+    "rms_after_mm": 0.02241960975606609,
+    "n_evaluations": 24
+  },
+  "465/right_eye": {
+    "participant": "465",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.372054654644431,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.2902509313753774,
+      "off_axis_superior_mm": 0.21063710654418014
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.09319636900476168,
+    "rms_after_mm": 0.02642024319922957,
+    "n_evaluations": 28
+  },
+  "716/left_eye": {
+    "participant": "716",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.663725126417112,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.15820203396971577,
+      "off_axis_superior_mm": 0.018885769591092765
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.236998651580602,
+    "rms_after_mm": 0.025621273827608083,
+    "n_evaluations": 24
+  },
+  "716/right_eye": {
+    "participant": "716",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.607237527391006,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.1448088362376099,
+      "off_axis_superior_mm": 0.013681497373107535
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.26322953623988127,
+    "rms_after_mm": 0.016877089269832505,
+    "n_evaluations": 24
+  },
+  "759/left_eye": {
+    "participant": "759",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.852520205676267,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.2491928284732265,
+      "off_axis_superior_mm": -0.25498858113772327
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.4922782080727874,
+    "rms_after_mm": 0.03421681757229764,
+    "n_evaluations": 32
+  },
+  "759/right_eye": {
+    "participant": "759",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.772624360118414,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.140727945318775,
+      "off_axis_superior_mm": -0.21845915650980974
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.4816587800325953,
+    "rms_after_mm": 0.02616638299851568,
+    "n_evaluations": 32
+  },
+  "790/left_eye": {
+    "participant": "790",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.384879545282277,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.4099523808047068,
+      "off_axis_superior_mm": 0.05058965318781168
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.33132107016112355,
+    "rms_after_mm": 0.02861230017527643,
+    "n_evaluations": 28
+  },
+  "790/right_eye": {
+    "participant": "790",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 7.285280875252294,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.4513632488323139,
+      "off_axis_superior_mm": 0.03910349532435537
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.34541796749704845,
+    "rms_after_mm": 0.0312839532215977,
+    "n_evaluations": 32
+  },
+  "930/left_eye": {
+    "participant": "930",
+    "eye": "left_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 8.502474991160732,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.19012389254650605,
+      "off_axis_superior_mm": -0.3406439439712175
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.5688059188264345,
+    "rms_after_mm": 0.03928256847170701,
+    "n_evaluations": 40
+  },
+  "930/right_eye": {
+    "participant": "930",
+    "eye": "right_eye",
+    "camera": "cam2",
+    "parameters": {
+      "anterior_radius": 8.20947976814291,
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0,
+      "off_axis_nasal_mm": 0.24524389908134553,
+      "off_axis_superior_mm": -0.27160847782634073
+    },
+    "held": {
+      "alpha_deg": 6.0,
+      "beta_deg": 2.0
+    },
+    "railed": {},
+    "rms_before_mm": 0.46601188433418017,
+    "rms_after_mm": 0.02655349800970535,
+    "n_evaluations": 33
+  }
+}

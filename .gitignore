@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ruff_cache/
+.DS_Store
+simulators/image_rendering/
+simulators/et_simul-1.01/
+simulators/gkaModelEye/

@@ -1,0 +1,207 @@
+Eye-level camera
+
+Change from the center target, median (MAD)
+                                 nasal (mm per mm)  temporal (mm per mm)  direction change (deg)  eyes
+Left eye
+  measured                        +0.0093 (0.0076)      -0.0065 (0.0098)              10.5 (7.7)    10
+  et_simul                        -0.0017 (0.0017)      +0.0017 (0.0010)               2.7 (1.6)    10
+    first test                    -0.0019 (0.0017)      +0.0018 (0.0010)               2.6 (1.5)    10
+    second test                   -0.0018 (0.0016)      +0.0018 (0.0010)               2.5 (1.4)    10
+  gkaModelEye                     -0.0033 (0.0020)      +0.0036 (0.0012)               3.5 (1.9)    10
+    first test                    -0.0032 (0.0022)      +0.0036 (0.0015)               3.4 (2.0)    10
+    second test                   -0.0035 (0.0017)      +0.0036 (0.0011)               3.4 (2.1)    10
+  PyEtSimul                       -0.0021 (0.0009)      +0.0023 (0.0005)               1.3 (0.7)    10
+    first test                    -0.0020 (0.0013)      +0.0021 (0.0007)               1.3 (1.0)    10
+    second test                   -0.0023 (0.0013)      +0.0027 (0.0007)               1.6 (1.2)    10
+Right eye
+  measured                        +0.0114 (0.0084)      -0.0110 (0.0104)              12.9 (7.5)    10
+  et_simul                        -0.0017 (0.0008)      +0.0017 (0.0006)               1.3 (0.9)    10
+    first test                    -0.0017 (0.0009)      +0.0017 (0.0007)               1.4 (0.9)    10
+    second test                   -0.0016 (0.0008)      +0.0016 (0.0006)               1.2 (0.9)    10
+  gkaModelEye                     -0.0037 (0.0012)      +0.0039 (0.0012)               2.9 (1.7)    10
+    first test                    -0.0036 (0.0014)      +0.0035 (0.0013)               2.9 (1.5)    10
+    second test                   -0.0028 (0.0018)      +0.0034 (0.0014)               2.8 (1.7)    10
+  PyEtSimul                       -0.0023 (0.0007)      +0.0021 (0.0006)               1.4 (0.9)    10
+    first test                    -0.0022 (0.0008)      +0.0020 (0.0007)               1.5 (1.0)    10
+    second test                   -0.0022 (0.0013)      +0.0027 (0.0010)               1.7 (1.3)    10
+
+Each run's median as a percentage of the measured one, the magnitude change in absolute value
+                                   nasal  temporal  direction
+Left eye
+  et_simul                         18.6%     25.5%      25.7%
+    first test                     20.5%     28.1%      24.9%
+    second test                    19.4%     27.0%      23.8%
+  gkaModelEye                      35.7%     56.1%      33.7%
+    first test                     34.6%     54.7%      32.3%
+    second test                    37.0%     55.0%      32.0%
+  PyEtSimul                        22.2%     35.2%      12.1%
+    first test                     21.2%     32.7%      12.6%
+    second test                    24.5%     40.8%      15.1%
+Right eye
+  et_simul                         14.8%     15.3%      10.3%
+    first test                     14.8%     15.2%      10.6%
+    second test                    14.2%     14.6%       9.6%
+  gkaModelEye                      32.8%     35.7%      22.2%
+    first test                     31.8%     31.9%      22.2%
+    second test                    24.1%     30.8%      22.1%
+  PyEtSimul                        20.3%     18.9%      10.8%
+    first test                     19.6%     18.0%      11.4%
+    second test                    19.7%     24.5%      13.1%
+
+Center target: median per-eye magnitude ratio simulated / measured and median angle between them; largest
+per-target difference from the population eye in the median magnitude change (mm per mm); differences from
+the center target pointing back toward it
+                                 ratio  angle (deg)  vs population eye  toward center
+Left eye
+  measured                                                                        95%
+  et_simul                       0.948          2.2                                0%
+    first test                   1.001          0.0             0.0003             0%
+    second test                  1.001          0.0             0.0002             0%
+  gkaModelEye                    0.962          3.9                                0%
+    first test                   1.001          0.0             0.0009             0%
+    second test                  1.000          0.0             0.0007             0%
+  PyEtSimul                      1.023          5.7                                0%
+    first test                   1.000          0.0             0.0005             0%
+    second test                  1.000          0.0             0.0005             0%
+Right eye
+  measured                                                                        94%
+  et_simul                       1.007          1.3                                0%
+    first test                   0.999          0.0             0.0002             0%
+    second test                  0.999          0.0             0.0002             0%
+  gkaModelEye                    1.029          3.5                                0%
+    first test                   0.999          0.0             0.0003             0%
+    second test                  0.999          0.0             0.0010             0%
+  PyEtSimul                      1.079          4.3                                0%
+    first test                   0.999          0.0             0.0002             0%
+    second test                  0.999          0.0             0.0007             0%
+
+Bottom-left camera
+
+Change from the center target, median (MAD)
+                                 nasal (mm per mm)  temporal (mm per mm)  direction change (deg)  eyes
+Left eye
+  measured                        +0.0126 (0.0073)      -0.0134 (0.0064)              10.0 (7.5)    11
+  et_simul                        -0.0040 (0.0020)      +0.0033 (0.0012)               3.7 (2.3)    11
+    first test                    -0.0047 (0.0017)      +0.0039 (0.0008)               2.9 (1.6)    11
+    second test                   -0.0046 (0.0017)      +0.0039 (0.0008)               2.7 (1.6)    11
+  gkaModelEye                     -0.0048 (0.0016)      +0.0047 (0.0008)               3.4 (2.2)    11
+    first test                    -0.0049 (0.0017)      +0.0048 (0.0009)               2.7 (1.5)    11
+    second test                   -0.0045 (0.0020)      +0.0047 (0.0013)               3.2 (1.7)    11
+  PyEtSimul                       -0.0037 (0.0015)      +0.0032 (0.0009)               2.2 (1.4)    11
+    first test                    -0.0037 (0.0016)      +0.0034 (0.0010)               2.3 (1.4)    11
+    second test                   -0.0040 (0.0019)      +0.0037 (0.0013)               2.4 (1.4)    11
+Right eye
+  measured                        +0.0057 (0.0103)      -0.0015 (0.0075)              11.0 (6.7)    11
+  et_simul                        -0.0026 (0.0009)      +0.0033 (0.0010)               3.1 (1.5)    11
+    first test                    -0.0023 (0.0010)      +0.0033 (0.0011)               3.1 (1.7)    11
+    second test                   -0.0023 (0.0009)      +0.0033 (0.0010)               3.1 (1.6)    11
+  gkaModelEye                     -0.0043 (0.0016)      +0.0047 (0.0014)               4.2 (2.3)    11
+    first test                    -0.0025 (0.0025)      +0.0040 (0.0018)               3.9 (2.3)    11
+    second test                   -0.0027 (0.0026)      +0.0040 (0.0017)               4.2 (2.6)    11
+  PyEtSimul                       -0.0033 (0.0010)      +0.0043 (0.0009)               3.1 (1.6)    11
+    first test                    -0.0026 (0.0015)      +0.0035 (0.0014)               3.1 (1.8)    11
+    second test                   -0.0026 (0.0021)      +0.0041 (0.0013)               3.4 (2.0)    11
+
+Each run's median as a percentage of the measured one, the magnitude change in absolute value
+                                   nasal  temporal  direction
+Left eye
+  et_simul                         31.8%     24.5%      36.6%
+    first test                     37.2%     29.5%      28.8%
+    second test                    36.4%     29.2%      27.4%
+  gkaModelEye                      38.2%     34.9%      34.0%
+    first test                     39.0%     35.6%      27.4%
+    second test                    35.8%     35.2%      31.9%
+  PyEtSimul                        29.0%     23.7%      21.4%
+    first test                     29.0%     25.2%      22.5%
+    second test                    31.5%     27.8%      24.2%
+Right eye
+  et_simul                         45.1%    212.0%      28.1%
+    first test                     41.3%    213.7%      27.8%
+    second test                    40.6%    211.7%      27.9%
+  gkaModelEye                      75.2%    303.5%      38.1%
+    first test                     43.5%    258.6%      35.5%
+    second test                    48.2%    260.0%      37.9%
+  PyEtSimul                        58.7%    280.2%      28.1%
+    first test                     46.5%    230.7%      28.3%
+    second test                    45.9%    265.3%      30.8%
+
+Center target: median per-eye magnitude ratio simulated / measured and median angle between them; largest
+per-target difference from the population eye in the median magnitude change (mm per mm); differences from
+the center target pointing back toward it
+                                 ratio  angle (deg)  vs population eye  toward center
+Left eye
+  measured                                                                        94%
+  et_simul                       0.878          9.3                                0%
+    first test                   1.003          0.0             0.0014             0%
+    second test                  1.003          0.1             0.0015             0%
+  gkaModelEye                    0.906          8.1                                0%
+    first test                   1.002          0.0             0.0016             0%
+    second test                  1.001          0.0             0.0024             0%
+  PyEtSimul                      1.022          4.3                                0%
+    first test                   1.001          0.1             0.0006             0%
+    second test                  1.001          0.0             0.0013             2%
+Right eye
+  measured                                                                        93%
+  et_simul                       1.013          5.3                                1%
+    first test                   1.001          0.1             0.0010             0%
+    second test                  1.000          0.0             0.0005             0%
+  gkaModelEye                    1.004          8.0                                0%
+    first test                   1.002          0.1             0.0016             0%
+    second test                  1.001          0.1             0.0015             0%
+  PyEtSimul                      1.073         11.9                                0%
+    first test                   1.002          0.1             0.0018             0%
+    second test                  1.002          0.1             0.0020             0%
+
+Inferred physical pupil diameter over measured apparent pupil diameter at the center target, median
+  Eye-level camera, Left eye, et_simul, first test            dilated 0.901   constricted 0.890   
+  Eye-level camera, Right eye, et_simul, first test           dilated 0.901   constricted 0.891   
+  Eye-level camera, Left eye, et_simul, second test           dilated 0.902   constricted 0.891   
+  Eye-level camera, Right eye, et_simul, second test          dilated 0.903   constricted 0.893   
+  Eye-level camera, Left eye, gkaModelEye, first test         dilated 0.900   constricted 0.889   
+  Eye-level camera, Right eye, gkaModelEye, first test        dilated 0.899   constricted 0.889   
+  Eye-level camera, Left eye, gkaModelEye, second test        dilated 0.903   constricted 0.890   
+  Eye-level camera, Right eye, gkaModelEye, second test       dilated 0.906   constricted 0.890   
+  Eye-level camera, Left eye, PyEtSimul, first test           dilated 0.907   constricted 0.897   
+  Eye-level camera, Right eye, PyEtSimul, first test          dilated 0.906   constricted 0.896   
+  Eye-level camera, Left eye, PyEtSimul, second test          dilated 0.904   constricted 0.892   
+  Eye-level camera, Right eye, PyEtSimul, second test         dilated 0.906   constricted 0.890   
+  Bottom-left camera, Left eye, et_simul, first test          dilated 0.923   constricted 0.911   
+  Bottom-left camera, Right eye, et_simul, first test         dilated 0.924   constricted 0.913   
+  Bottom-left camera, Left eye, et_simul, second test         dilated 0.923   constricted 0.912   
+  Bottom-left camera, Right eye, et_simul, second test        dilated 0.928   constricted 0.917   
+  Bottom-left camera, Left eye, gkaModelEye, first test       dilated 0.903   constricted 0.892   
+  Bottom-left camera, Right eye, gkaModelEye, first test      dilated 0.921   constricted 0.911   
+  Bottom-left camera, Left eye, gkaModelEye, second test      dilated 0.904   constricted 0.888   
+  Bottom-left camera, Right eye, gkaModelEye, second test     dilated 0.923   constricted 0.909   
+  Bottom-left camera, Left eye, PyEtSimul, first test         dilated 0.916   constricted 0.905   
+  Bottom-left camera, Right eye, PyEtSimul, first test        dilated 0.939   constricted 0.929   
+  Bottom-left camera, Left eye, PyEtSimul, second test        dilated 0.915   constricted 0.901   
+  Bottom-left camera, Right eye, PyEtSimul, second test       dilated 0.940   constricted 0.924   
+
+Eye-parameter fits
+  et_simul fit to the eye-level camera: 20 eyes, median P-CR residual 0.619 mm before, 0.184 mm after
+    off_axis_nasal_mm     inside 10   lower bound 10   upper bound  0
+    off_axis_superior_mm  inside 20   lower bound  0   upper bound  0
+  et_simul fit to the bottom-left camera: 22 eyes, median P-CR residual 0.636 mm before, 0.232 mm after
+    off_axis_nasal_mm     inside  8   lower bound 11   upper bound  3
+    off_axis_superior_mm  inside 22   lower bound  0   upper bound  0
+  gkaModelEye fit to the eye-level camera: 20 eyes, median P-CR residual 0.444 mm before, 0.032 mm after
+    anterior_radius       inside 19   lower bound  0   upper bound  1
+    off_axis_nasal_mm     inside 20   lower bound  0   upper bound  0
+    off_axis_superior_mm  inside 20   lower bound  0   upper bound  0
+  gkaModelEye fit to the bottom-left camera: 22 eyes, median P-CR residual 0.547 mm before, 0.042 mm after
+    anterior_radius       inside 20   lower bound  0   upper bound  2
+    off_axis_nasal_mm     inside 22   lower bound  0   upper bound  0
+    off_axis_superior_mm  inside 19   lower bound  0   upper bound  3
+  PyEtSimul fit to the eye-level camera: 20 eyes, median P-CR residual 0.327 mm before, 0.025 mm after
+    anterior_radius       inside 18   lower bound  2   upper bound  0
+    alpha_deg             held   20
+    beta_deg              held   20
+    off_axis_nasal_mm     inside 20   lower bound  0   upper bound  0
+    off_axis_superior_mm  inside 20   lower bound  0   upper bound  0
+  PyEtSimul fit to the bottom-left camera: 22 eyes, median P-CR residual 0.333 mm before, 0.033 mm after
+    anterior_radius       inside 19   lower bound  2   upper bound  1
+    alpha_deg             held   22
+    beta_deg              held   22
+    off_axis_nasal_mm     inside 22   lower bound  0   upper bound  0
+    off_axis_superior_mm  inside 22   lower bound  0   upper bound  0
